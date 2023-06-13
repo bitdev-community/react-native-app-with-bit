@@ -9,5 +9,17 @@
  */
 
 {
+    "ui/spinner": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "react-native-expo/ui/spinner",
+        "config": {
+            "teambit.react/react-native-env@0.0.10": {},
+            "teambit.envs/envs": {
+                "env": "teambit.react/react-native-env"
+            }
+        }
+    },
     "$schema-version": "15.0.0"
 }
