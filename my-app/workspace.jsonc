@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "my-scope"
+    "defaultScope": "learnbit-react.react-native-expo"
   },
   /**
    * main configuration for component dependency resolution.
