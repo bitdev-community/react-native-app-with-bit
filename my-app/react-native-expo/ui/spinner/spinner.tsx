@@ -1,4 +1,4 @@
-import { SafeAreaView, ActivityIndicator } from 'react-native';
+import { SafeAreaView, ActivityIndicator, Text } from 'react-native';
 
 export function Spinner() {
   return (
