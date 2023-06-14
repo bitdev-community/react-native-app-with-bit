@@ -38,7 +38,7 @@ const style = StyleSheet.create({
   },
 });
 
-export function Spinner({ text, color, size, animating }: SpinnerProps) {
+export function Spinner({ text, color, size, animating = true }: SpinnerProps) {
   return (
     <SafeAreaView>
       <ActivityIndicator

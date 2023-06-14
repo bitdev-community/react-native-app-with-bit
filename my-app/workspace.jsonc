@@ -41,7 +41,8 @@
       "dependencies": {},
       "peerDependencies": {}
     },
-    "linkCoreAspects": true
+    "linkCoreAspects": true,
+    "rootComponents": true
   },
   /**
    * workspace variants allow to set different subsets of configuration for components in your
@@ -51,7 +52,7 @@
    * see https://bit.dev/docs/workspace/variants for more info.
    **/
   "teambit.generator/generator": {
-    "envs": ["teambit.react/react-native-env"]
+    "envs": ["learnbit-react.react-native-expo/envs/my-react-native-env"]
   },
   "teambit.workspace/variants": {
     /**
