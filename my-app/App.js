@@ -1,12 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import { Spinner } from '@learnbit-react/react-native-expo.ui.spinner';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Spinner />
-      <StatusBar style="auto" />
     </View>
   );
 }

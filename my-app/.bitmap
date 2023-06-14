@@ -9,9 +9,15 @@
  */
 
 {
-    "ui/spinner": {
+    "envs/my-react-native-env": {
         "scope": "learnbit-react.react-native-expo",
         "version": "0.0.1",
+        "mainFile": "index.ts",
+        "rootDir": "react-native-expo/envs/my-react-native-env"
+    },
+    "ui/spinner": {
+        "scope": "learnbit-react.react-native-expo",
+        "version": "0.0.8",
         "mainFile": "index.ts",
         "rootDir": "react-native-expo/ui/spinner"
     },
