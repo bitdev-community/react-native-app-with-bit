@@ -1,15 +1,37 @@
 # react-native-app-with-bit
 
-Start a new expo project by running:
+Install dependencies:
 
-```bash
-npx create-expo-app my-app
+``` bash
+npm install
 ```
 
-Install dependencies in order to run the app on web:
+Run the app locally:
 
-```bash
-npx expo install react-native-web@~0.18.10 react-dom@18.2.0 @expo/webpack-config@^18.0.1
+``` bash
+npm start
 ```
 
-In the post-bit branch, you can see the steps to add bit to the project.
+Run Bits' dev environment:
+
+``` bash
+bit start
+```
+
+Create new components:
+
+``` bash
+bit create react-native <component-name>
+```
+
+Tag components:
+
+``` bash
+bit tag -m "my message"
+```
+
+Export components to bit.cloud:
+
+``` bash
+bit export 
+``` 
