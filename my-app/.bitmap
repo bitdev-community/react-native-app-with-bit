@@ -17,7 +17,7 @@
     },
     "ui/spinner": {
         "scope": "learnbit-react.react-native-expo",
-        "version": "0.0.8",
+        "version": "0.0.10",
         "mainFile": "index.ts",
         "rootDir": "react-native-expo/ui/spinner"
     },
