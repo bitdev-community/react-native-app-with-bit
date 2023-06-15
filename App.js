@@ -5,7 +5,7 @@ import { Spinner } from '@learnbit-react/react-native-expo.ui.spinner';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Spinner />
+      <Spinner size={200} />
     </View>
   );
 }
